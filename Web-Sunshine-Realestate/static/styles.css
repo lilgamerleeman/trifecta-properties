@@ -1,0 +1,49 @@
+
+/*@key-frames background-change{*/
+.logo{
+  background-color: rgba(240, 255, 255, 0.25);
+  max-width: fit-content;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.communication {
+  background-color: rgba(0, 0, 0, 0.500);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  border-color:aliceblue;
+  border-radius: 10px;
+  border-style: solid;
+  border: fit-content(10px);
+  padding: 10px;
+}
+body {
+    background-image: url(/static/images/Sunset_4k.jpg);
+    background-size:cover;
+    /*animation: background-change 30s infinite;*/
+  }
+p,h1,h3,h2 {
+  color:rgb(161, 172, 182);
+  font-family: "Open sans";
+  text-align: center;
+  /*padding: 5%;*/
+}
+h1{
+  padding: 2%;
+}
+h2{
+  padding: 20px;
+}
+h3{
+  padding:10px;}
+p{
+  padding: 5px;
+}
+/*
+@keyframes background-change{
+  0% {background-image: url(/static/images/Sunset_8k.jpg);}
+  50% {background-image: url(/static/images/Sunset_4k.jpg);}
+  100% {background-image: url(/static/images/Sunset.jpg);}
+}
+*/
